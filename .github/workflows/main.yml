@@ -55,9 +55,6 @@ jobs:
           whoami
           echo How is the disc laid out?
           df
-          echo Location of workspace
-          echo $RUNNER_WORKSPACE
-          echo
           echo How is the disc laid out?
           df
           echo Availabl ENV variables
