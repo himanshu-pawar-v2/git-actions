@@ -49,11 +49,15 @@ jobs:
           location of Selenium jars
           echo $SELENIUM_JAR_PATH
           echo
+          echo Availabl ENV variables
+          env
+          echo who is runing this scrpt?
+          whoami
+          echo How is the disc laid out?
+          df
           echo Location of workspace
           echo $RUNNER_WORKSPACE
           echo
-          echo who is runing this scrpt?
-          whoami
           echo How is the disc laid out?
           df
           echo Availabl ENV variables
