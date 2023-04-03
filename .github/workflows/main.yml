@@ -43,4 +43,20 @@ jobs:
           echo
           echo tell me maven version
           mvn --version
+          echo where is android SDK root?
+          echo $ANDROID_SDK_ROOT
+          echo
+          location of Selenium jars
+          echo $SELENIUM_JAR_PATH
+          echo
+          echo Loaction of workspace
+          echo $RUNNER_WORKSPACE
+          echo
+          echo who is runing this scrpt?
+          whoami
+          echo How is the disc laid out?
+          df
+          echo Availabl ENV variables
+          env
+          
           echo test, and deploy your project.
