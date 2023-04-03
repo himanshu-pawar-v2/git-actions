@@ -49,7 +49,7 @@ jobs:
           location of Selenium jars
           echo $SELENIUM_JAR_PATH
           echo
-          echo Loaction of workspace
+          echo Location of workspace
           echo $RUNNER_WORKSPACE
           echo
           echo who is runing this scrpt?
