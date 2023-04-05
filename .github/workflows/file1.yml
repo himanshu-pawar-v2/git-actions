@@ -28,8 +28,8 @@ jobs:
 push:
     branches; [ master ]
 
-  build-on-linux:
-    runs-on: linux-latest
+  build-on-ubuntu:
+    runs-on: ubuntu-latest
     steps:
       - name: step 1 - checkout main branch from Git
         uses: actions/checkout@v2
