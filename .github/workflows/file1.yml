@@ -25,32 +25,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a one-line script
         run: echo Hello, world!
-push:
-    branches; [ master ]
 
-  build-on-ubuntu:
-    runs-on: ubuntu-latest
-    steps:
-      - name: step 1 - checkout main branch from Git
-        uses: actions/checkout@v2
-      - name: Step 2 - setup JDK 1.8
-        uses: actions/setup-java@v1
-        with:
-          java-version: 1.8
-      - name: step 3 - have GitActions build Maven project
-        uses: mvn -B package --file pom.xml
-      - name: step 4 - list the env variables
-        uses: env
-  build-on-windows:
-    runs-on: windows-latest
-    steps:
-      - name: step 1 - checkout main branch from GitHub
-        uses: actions/checkout@v2
-      - name: step 2 - setup JDK 1.8
-        uses: actions/setup-java@v1
-        with:
-          java-version: 1.8
-      - name: step 3 - have GitActions build Maven project
-        uses: mvn -B package --file pom.xml
-      - name: step 4 - list of env variables
           
